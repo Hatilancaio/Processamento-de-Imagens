@@ -8,8 +8,7 @@ Repositório destinado às implementações e atividades desenvolvidas na discip
 
 - Interpolação por vizinho mais próximo
 - Interpolação bilinear
-- Redução de imagens
-- Ampliação de imagens
+
 
 ## Tecnologias
 
