@@ -48,7 +48,6 @@ def bilinear(imagem, nova_largura:int, nova_altura:int):
     fator_y = altura/nova_altura
 
     for x in range(nova_largura):
-
         for y in range(nova_altura):
 
             x_original = (x + 0.5) * (fator_x) - 0.5
