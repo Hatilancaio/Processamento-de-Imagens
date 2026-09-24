@@ -41,7 +41,6 @@ def somar_imagens(caminho1, caminho2):
 
     matriz_para_imagem(resultado, "images/soma_resultado.tif") 
 
-import numpy as np
 
 def transladar(caminho, dx, dy):
     matriz = imagem_para_matriz(caminho)
