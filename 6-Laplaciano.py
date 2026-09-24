@@ -11,7 +11,7 @@ def laplaciano(imagem, mascara):
 
             soma = 0
 
-            # Não processa as bordas da imagem
+            
             if x == 0 or y == 0 or x == largura - 1 or y == altura - 1:
                 nova_imagem.putpixel((x, y), 0)
                 continue
@@ -26,7 +26,7 @@ def laplaciano(imagem, mascara):
 
                     soma += pixel * coeficiente
 
-            # Valores negativos são zerados
+          
             soma = max(0, min(255, soma))
 
             nova_imagem.putpixel((x, y), soma)
