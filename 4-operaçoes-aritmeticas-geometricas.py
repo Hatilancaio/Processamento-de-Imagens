@@ -1,8 +1,6 @@
 from PIL import Image
 import numpy as np
 
-
-
 def imagem_para_matriz(caminho_imagem):
     img = Image.open(caminho_imagem).convert("L")
     matriz = np.array(img)
